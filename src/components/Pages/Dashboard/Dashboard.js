@@ -5,7 +5,7 @@ import FinanceResult from './FinanceResult';
 class Dashboard extends React.Component {
     render() {
         return(
-            <div className="dashboard-page">
+            <div className="main-container">
                 <Buttons />
                 <FinanceResult />
             </div>

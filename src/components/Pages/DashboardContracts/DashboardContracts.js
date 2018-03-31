@@ -5,7 +5,7 @@ import ContractsTable from './Table';
 class DashboardContracts extends React.Component {
     render() {
         return(
-            <div className="dashboard-page">
+            <div className="main-container">
             <Buttons />
             <ContractsTable />
             </div>
