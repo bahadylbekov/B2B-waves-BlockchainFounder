@@ -6,6 +6,10 @@
     margin: 0 auto;
 }
 
+.statement-table:last-child {
+    border-bottom:none;
+}
+
 .statement-table-header {
     border-bottom: $px-border;
 }
@@ -20,10 +24,6 @@
 
 .statement-table-row {
     border-bottom: $px-border;
-
-    &.last {
-        border-bottom: none;
-    }
 }
 
 .statement-table-row-item {
