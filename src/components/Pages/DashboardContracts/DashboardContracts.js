@@ -1,5 +1,5 @@
 import React from 'react';
-import Buttons from './Buttons/Buttons';
+import Buttons from '../Dashboard/Buttons/Buttons';
 
 class DashboardContracts extends React.Component {
     render() {
