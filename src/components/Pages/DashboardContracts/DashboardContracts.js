@@ -1,6 +1,6 @@
 import React from 'react';
 import Buttons from '../Dashboard/Buttons/Buttons';
-import ContractsTable from './ContractsTable';
+import ContractsTable from './Table';
 
 class DashboardContracts extends React.Component {
     render() {
