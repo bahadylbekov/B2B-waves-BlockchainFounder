@@ -1,0 +1,26 @@
+<svg width="52" height="52" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>waiting-icon</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-5298 -2885)">
+<g id="waiting-icon">
+<g id="state-icon">
+<use xlink:href="#path0_stroke" transform="translate(5299 2886)" fill="url(#paint0_linear)"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="matrix(6.12323e-17 -1 1 6.12323e-17 5312 2914)" fill="url(#paint1_linear)"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(3.06162e-15 50 -50 3.06162e-15 50 -3.06162e-15)">
+<stop offset="0" stop-color="#361FB2"/>
+<stop offset="1" stop-color="#2768C9"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-5 -5.70798e-07 1.13358e-07 -1 5 12.5)">
+<stop offset="0" stop-color="#361FB2"/>
+<stop offset="1" stop-color="#2768C9"/>
+</linearGradient>
+<path id="path0_stroke" d="M 49 25C 49 38.2548 38.2548 49 25 49L 25 51C 39.3594 51 51 39.3594 51 25L 49 25ZM 25 49C 11.7452 49 1 38.2548 1 25L -1 25C -1 39.3594 10.6406 51 25 51L 25 49ZM 1 25C 1 11.7452 11.7452 1 25 1L 25 -1C 10.6406 -1 -1 10.6406 -1 25L 1 25ZM 25 1C 38.2548 1 49 11.7452 49 25L 51 25C 51 10.6406 39.3594 -1 25 -1L 25 1Z"/>
+<path id="path1_fill" d="M 2.4 0C 1.07452 0 0 1.07452 0 2.4C 0 3.72548 1.07452 4.8 2.4 4.8C 3.72548 4.8 4.8 3.72548 4.8 2.4C 4.8 1.07452 3.72548 0 2.4 0ZM 2.4 9.6C 1.07452 9.6 0 10.6745 0 12C 0 13.3255 1.07452 14.4 2.4 14.4C 3.72548 14.4 4.8 13.3255 4.8 12C 4.8 10.6745 3.72548 9.6 2.4 9.6ZM 2.4 19.2C 1.07452 19.2 0 20.2745 0 21.6C 0 22.9255 1.07452 24 2.4 24C 3.72548 24 4.8 22.9255 4.8 21.6C 4.8 20.2745 3.72548 19.2 2.4 19.2Z"/>
+</defs>
+</svg>

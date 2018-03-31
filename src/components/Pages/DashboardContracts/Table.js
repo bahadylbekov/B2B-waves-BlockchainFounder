@@ -97,7 +97,11 @@ class TableRow extends React.Component {
                 <td className="contracts-table-row-item ">{this.props.data.qty}</td>
                 <td  className="contracts-table-row-item ">{this.props.data.date}</td>
                 <td className="contracts-table-row-item value">{this.props.data.totalPrice}</td>
-                <td className="contracts-table-row-item value">{this.props.data.status}</td>
+                <td className="contracts-table-row-item status">
+                        { this.props.data.status == 1 ? <span className="status-paid" /> : null }
+                        { this.props.data.status == 2 ? <span className="status-awaiting" /> : null }
+                        { this.props.data.status == 3 ? <span className="status-overdue" /> : null }
+                </td>
             </tr>
         )
     }

@@ -37,6 +37,10 @@
         font-size: 16px;
         font-weight: 500;
     }
+
+    &.status {
+        padding: 20px 0;
+    }
 }
 
 
@@ -45,7 +49,7 @@
 }
 
 .logo-coca-cola {
-    display: inline-flex;
+    display: inline-block;
     width: 40px;
     height: 40px;
     background-image: url(/images/contact-logos/logo-coca-cola.svg);
@@ -53,7 +57,7 @@
 }
 
 .logo-sberbank {
-    display: inline-flex;
+    display: inline-block;
     width: 40px;
     height: 40px;
     background-image: url(/images/contact-logos/logo-sberbank.svg);
@@ -61,7 +65,7 @@
 }
 
 .logo-pepsi {
-    display: inline-flex;
+    display: inline-block;
     width: 40px;
     height: 40px;
     background-image: url(/images/contact-logos/logo-pepsi.svg);
@@ -74,4 +78,28 @@
     top: -14px;
     display: inline-block;
     margin: 0 0 0 10px;
+}
+
+.status-paid {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(/images/status/status-paid.svg);
+    background-size: 40px 40px;
+}
+
+.status-awaiting {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(/images/status/status-awaiting.svg);
+    background-size: 40px 40px;
+}
+
+.status-overdue {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(/images/status/status-overdue.svg);
+    background-size: 40px 40px;
 }
