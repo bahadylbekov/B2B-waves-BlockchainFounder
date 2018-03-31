@@ -2,13 +2,12 @@
     margin: 0 auto;
 }
 
-.difference-table:last-child {
-    border-bottom: none;
-}
-
-
 .difference-table-item {
     border-bottom: $px-border;
+
+    &.last {
+        border-bottom: none;
+    }
 }
 
 .difference-table-key {
