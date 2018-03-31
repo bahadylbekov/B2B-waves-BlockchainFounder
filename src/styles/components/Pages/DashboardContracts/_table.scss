@@ -1,0 +1,105 @@
+.contracts {
+    background: $white;
+    border: $px-border;
+    padding: 25px;
+}
+
+.contracts-table {
+    width: 100%;
+    margin: 0;
+}
+
+.contracts-table-header {
+    color: $table-header;
+}
+
+.contracts-header-item {
+    padding: 15px 30px 0 30px;
+    font-weight: 500;
+}
+
+.contracts-table-row {
+    border-bottom: $px-border;
+}
+
+.contracts-table-row:last-child {
+    border-bottom: none;
+}
+
+.contracts-table-row-item {
+    padding: 20px 30px;
+
+    &.main {
+        font-size: 16px;
+    }
+
+    &.value {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    &.status {
+        padding: 20px 0;
+    }
+}
+
+
+.item-logo-text {
+    height: 40px;
+}
+
+.logo-coca-cola {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(/images/contact-logos/logo-coca-cola.svg);
+    background-size: 40px 40px;
+}
+
+.logo-sberbank {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(/images/contact-logos/logo-sberbank.svg);
+    background-size: 40px 40px;
+}
+
+.logo-pepsi {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(/images/contact-logos/logo-pepsi.svg);
+    background-size: 40px 40px;
+}
+
+
+.contracts-table-item-title{
+    position: relative;
+    top: -14px;
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
+
+.status-paid {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(/images/status/status-paid.svg);
+    background-size: 40px 40px;
+}
+
+.status-awaiting {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(/images/status/status-awaiting.svg);
+    background-size: 40px 40px;
+}
+
+.status-overdue {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(/images/status/status-overdue.svg);
+    background-size: 40px 40px;
+}
