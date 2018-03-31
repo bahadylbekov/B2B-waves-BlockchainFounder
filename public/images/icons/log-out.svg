@@ -1,0 +1,25 @@
+<svg width="28" height="33" viewBox="0 0 28 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>log-out-vector</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1528 210)">
+<g id="log-out-vector">
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(1528 -205)" fill="#FFFFFF"/>
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(1528 -205)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(1528 -205)" fill="#BFC5D1"/>
+</g>
+</g>
+<g id="Line">
+<use xlink:href="#path2_stroke" transform="matrix(4.25007e-17 1 -1 8.20701e-06 1541 -210)" fill="#BFC5D1"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 28 14C 28 21.732 21.732 28 14 28C 6.26801 28 0 21.732 0 14C 0 6.26801 6.26801 0 14 0C 21.732 0 28 6.26801 28 14Z"/>
+<path id="path1_stroke_2x" d="M 26 14C 26 20.6274 20.6274 26 14 26L 14 30C 22.8366 30 30 22.8366 30 14L 26 14ZM 14 26C 7.37258 26 2 20.6274 2 14L -2 14C -2 22.8366 5.16344 30 14 30L 14 26ZM 2 14C 2 7.37258 7.37258 2 14 2L 14 -2C 5.16344 -2 -2 5.16344 -2 14L 2 14ZM 14 2C 20.6274 2 26 7.37258 26 14L 30 14C 30 5.16344 22.8366 -2 14 -2L 14 2Z"/>
+<path id="path2_stroke" d="M 0 0L 12.9996 0L 12.9996 -1.85864L 0 -1.85864L 0 0Z"/>
+</defs>
+</svg>

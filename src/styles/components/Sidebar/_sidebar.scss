@@ -1,0 +1,11 @@
+@import './Profile/profile';
+@import './Sidemenu/sidemenu';
+
+.sidebar {
+    background: $white;
+    position: fixed;
+    width: 273px;
+    height: 100vh;
+    border-right: $px-border;
+    overflow-y: scroll;
+}

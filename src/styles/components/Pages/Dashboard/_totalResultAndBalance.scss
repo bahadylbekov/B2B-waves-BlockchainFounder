@@ -1,0 +1,18 @@
+@import './AdditionalInfo/totalResultInfo';
+@import './AdditionalInfo/balanceInfo';
+@import './AdditionalInfo/timelineChanges';
+
+.main-chart {
+    background: $white;
+    height: 422px;
+    border: $px-border;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.chart {
+    padding: 30px 15px 15px 20px;
+}

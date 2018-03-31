@@ -1,0 +1,30 @@
+.expenses-chart-legend {
+    margin: 40px 0 0 0;
+}
+
+.advertising-mark {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: $blue;
+    margin-left: 30px;
+}
+
+.payroll-mark {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: $red;
+    margin-left: 30px;
+}
+
+.reinvestment-mark {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: $yellow;
+    margin-left: 30px;
+}

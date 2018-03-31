@@ -1,0 +1,20 @@
+.additional-info {
+    padding: 15px;
+}
+
+.info-icon {
+    display: block;
+    float: right;
+    width: 25px;
+    height: 25px;
+    background: url(/images/icons/info.svg);
+    background-size: 25px 25px;
+    margin-right: 20px; 
+}
+
+.info-title {
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    font-size: 18px;
+}

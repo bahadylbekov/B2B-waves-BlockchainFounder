@@ -1,0 +1,23 @@
+.submenu {
+    list-style-type: none;
+    margin: 0 0 0 85px;
+    padding: 0px;
+    font-style: normal; 
+
+
+    .subtitle {
+        color: $text-grey;
+        margin-top: 10px;
+        padding: 0;
+    }
+
+
+    .subtitle a {
+        &.active {
+            margin: 0px;
+            color: $active-menu;
+            font-weight: bold;
+        }
+    }
+
+}

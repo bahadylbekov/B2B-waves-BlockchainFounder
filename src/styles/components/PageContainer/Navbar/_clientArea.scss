@@ -1,0 +1,31 @@
+@import './createNewButton';
+
+.client-area {
+    display: inline-block;
+    float: right;
+    padding: 16px 40px 20px 0;
+}
+
+.search-icon {
+    display: inline-block;
+    color: $navbar-icon;
+    margin-right: 20px;
+    width: 33px;
+    height: 33px;
+}
+
+.logout-icon {
+    display: inline-block;
+    color: $navbar-icon;
+    margin-right: 20px;
+    width: 26.13px;
+    height: 33px;
+}
+
+.notifications-icon {
+    display: inline-block;
+    margin-right: 20px;
+    color: $navbar-icon;
+    width: 28px;
+    height: 33px;
+}

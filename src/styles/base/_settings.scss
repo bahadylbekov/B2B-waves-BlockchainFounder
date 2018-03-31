@@ -1,0 +1,55 @@
+// Colors:
+
+$white: #ffffff;
+$black: #1e1e1e;
+$button-blue: #4c84ff;
+$navbar-icon: #bfc5d1;
+$sidebar-icon: #8E8E93;
+$text-grey: #8e8e93;
+$border: #dedede;
+$working-space: #f5f6fa;
+$red: #ff3b30;
+$blue: #1e61ee;
+$green: #02b21f;
+$yellow: #ffcc00;
+$orange: #fa661e;
+$icon-gradient: linear-gradient(to top, #361fb2, #2768c9);
+$dark-blue: #2768C9;
+$dark-purple: #361FB2;
+$light-blue: #2D9CDB;
+$active-menu: #0047c2;
+
+
+// Spacing:
+
+$s-size: 1.2rem;
+$m-size: 1.6rem;
+$l-size: 3.2rem;
+$xl-size: 4.8rem;
+$desktop-breakpoint: 45rem;
+
+
+// Border:
+$px-border: 1px solid #dedede;
+$selected-button: inset 0 0.5px 4px 0 rgba(0, 0, 0, 0.25), 0 0.5px 4px 0 rgba(0, 0, 0, 0.25);
+$button-radius: 38px;
+$border-radius: 5px;
+
+// Text Sizes:
+
+$main-title: 36px;
+$button-title: 35px;
+$balance: 48px;
+$main-text: 24px;
+$additional-text: 18px;
+$chart-text: 16px;
+
+
+// Grid System: 
+
+$grid-columns: 12;
+$grid-max-width: 1200px;
+$breakpoint-small: "only screen and (min-width: 0px)";
+$breakpoint-medium: "only screen and (min-width: 768px)";
+$breakpoint-large: "only screen and (min-width: 1008px)";
+$breakpoint-xl: "only screen and (min-width: 1300px)";

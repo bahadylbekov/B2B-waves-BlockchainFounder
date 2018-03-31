@@ -1,0 +1,37 @@
+.timeline-changes {
+    margin: 60px 0 0 0;
+}
+
+.income-mark {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: $green;
+    margin-left: 30px;
+}
+
+.expenses-mark {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: $red;
+    margin-left: 30px;
+}
+
+.result-mark {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: $blue;
+    margin-left: 30px;
+}
+
+.timeline-text {
+    display: inline-block;
+    margin-left: 15px;
+    color: $text-grey;
+    font-size: 14px;
+}

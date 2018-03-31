@@ -1,0 +1,20 @@
+.difference-table {
+    margin: 0 auto;
+}
+
+.difference-table-item {
+    border-bottom: $px-border;
+
+    &.last {
+        border-bottom: none;
+    }
+}
+
+.difference-table-key {
+    padding: 10px 0 10px 50px;
+}
+
+.difference-table-value {
+    padding: 0 50px 0 80px;
+    text-align: center;
+}

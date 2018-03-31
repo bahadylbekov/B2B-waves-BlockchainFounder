@@ -1,0 +1,84 @@
+.button {
+    padding: 15px;
+}
+
+.button-card {
+    display: block;
+    background: white;
+    min-width: 250px;
+    height: 170px;
+    border: $px-border;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    &.active-finance {
+        box-shadow: inset 0 0.5px 1px 0 rgba(0, 0, 0, 0.25), 0 0.5px 1px 0 rgba(0, 0, 0, 0.25);
+
+        .finance-icon {
+            background: url(/images/icons/finance-color.svg);
+        }
+    }
+
+    &.active-contracts {
+        box-shadow: inset 0 0.5px 1px 0 rgba(0, 0, 0, 0.25), 0 0.5px 1px 0 rgba(0, 0, 0, 0.25);
+
+        .finance-icon {
+            background: url(/images/icons/contracts-color.svg);
+        }
+    }
+
+    &.active-contacts {
+        box-shadow: inset 0 0.5px 1px 0 rgba(0, 0, 0, 0.25), 0 0.5px 1px 0 rgba(0, 0, 0, 0.25);
+
+        .finance-icon {
+            background: url(/images/icons/contacts-color.svg);
+        }
+    }
+
+
+}
+
+.finance-icon {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background: url(/images/icons/finance.svg);
+    background-size: 45px 45px;
+    margin-left: 40px; 
+}
+
+.contracts-icon {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background: url(/images/icons/contracts.svg);
+    background-size: 45px 45px;
+    margin-left: 40px; 
+}
+
+.contacts-icon {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background: url(/images/icons/contacts.svg);
+    background-size: 45px 45px;
+    margin-left: 40px; 
+}
+
+.button-info {
+    display: inline-block;
+    padding: 58px 0 58px 15px;
+}
+
+.button-title {
+    margin: 0;
+    font-family: Roboto;
+    font-weight: normal;
+}
+
+.button-subtitle {
+    margin: 3px 0 0 0;
+    font-family: Roboto;
+    color: $text-grey;
+}

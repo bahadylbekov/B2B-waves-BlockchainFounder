@@ -1,0 +1,38 @@
+.statement {
+    padding: 0;
+}
+
+.statement-table {
+    margin: 0 auto;
+}
+
+.statement-table-header {
+    border-bottom: $px-border;
+}
+
+.statement-header-item {
+    padding: 30px 60px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #828287;  
+}
+
+.statement-table-row {
+    border-bottom: $px-border;
+
+    &.last {
+        border-bottom: none;
+    }
+}
+
+.statement-table-row-item {
+    padding: 40px 65px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+
+    &.value {
+        font-weight: 500;
+    }
+}
