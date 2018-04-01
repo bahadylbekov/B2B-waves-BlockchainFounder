@@ -8,7 +8,7 @@
         "serve": "live-server public/",
         "build": "webpack",
         "dev-server": "webpack-dev-server",
-        "server": "nodemon src/server.js"
+        "server": "node src/server.js -watch"
     },
     "dependencies": {
         "axios": "^0.18.0",
@@ -27,6 +27,7 @@
         "material-ui": "^0.20.0",
         "material-ui-icons": "^1.0.0-beta.36",
         "morgan": "^1.8.1",
+        "nedb": "^1.8.0",
         "node-sass": "4.5.3",
         "normalize.css": "7.0.0",
         "prop-types": "^15.6.1",

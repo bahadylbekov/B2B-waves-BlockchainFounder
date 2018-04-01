@@ -7,7 +7,7 @@ const ContractsButton = (props) => (
         <div className="button-card">
         <span className="contracts-icon" />
         <div className="button-info">
-            <h1 className="button-title">250</h1>
+            <h1 className="button-title">4</h1>
             <p className="button-subtitle">Sales and Purchases</p>
         </div>
         </div>
