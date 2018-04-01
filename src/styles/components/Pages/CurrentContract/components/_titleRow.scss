@@ -1,0 +1,40 @@
+.title-row {
+    padding: 10px;
+}
+
+.contract-title {
+    display: inline-block;
+    font-family: Open Sans;
+    margin-left: 30px;
+}
+
+.button-exit {
+    display: inline-block;
+    float: right;
+}
+.documents-button {
+    display: inline-block;
+    background: none;
+    width: 180px;
+    height: 63px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    border: solid 2px transparent;
+    border-radius: 35px;
+    background-image: linear-gradient($working-space, $working-space), linear-gradient(to top, #361fb2, #2768c9, #2768c9);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    padding: 0;
+    margin: 0 40px 0 0;
+}
+
+.exit-logo {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(/images/icons/exit.svg);
+    background-size: 20px 20px;
+    margin-right: 10px;
+}

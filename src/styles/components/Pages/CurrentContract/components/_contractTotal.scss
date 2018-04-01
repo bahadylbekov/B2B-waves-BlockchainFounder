@@ -1,0 +1,49 @@
+.contract-total {
+    float: right;
+    margin-bottom: 30px;
+}
+
+.contract-total-subtotal {
+    margin-right: 50px;
+    border-bottom: 2px solid $black;
+}
+
+.contract-total-total {
+    margin-right: 50px;
+}
+
+.subtotal-text {
+    display: inline-block;
+    width: 250px;
+    padding-left: 40px;
+    margin-bottom: 5px;
+}
+
+.subtotal-value {
+    display: inline-block;
+    margin-bottom: 5px;
+    text-align: end;
+}
+
+.total-text {
+    display: inline-block;
+    width: 250px;
+    padding-left: 40px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.total-value {
+    display: inline-block;
+    margin-bottom: 5px;
+    text-align: end;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.clear {
+    clear: both;
+}

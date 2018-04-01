@@ -22,7 +22,7 @@ export default class ItemsTable extends React.Component {
         });
 
         return (
-            <div  className="table col-lg-12 col-xl-12">
+            <div  className="table">
             <table className="items-table">
                 <TableHeader />
                 <tbody>{rows}</tbody>
