@@ -30,7 +30,7 @@ class Contract extends React.Component {
         this.setState({ [event.target.name]: event.target.value });
     }
     handleSubmit(event) {
-        const response = await axios.post('/api/contracts', this.state );
+        const response = axios.post('http://10.0.0.104:3000/api/contracts', this.state );
         console.log(response);
         event.preventDefault();
       }    
