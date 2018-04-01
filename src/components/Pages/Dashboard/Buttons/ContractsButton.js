@@ -1,7 +1,9 @@
 import React from 'react';
 
 const ContractsButton = (props) => (
-    <div className="button col-md-4 col-lg-4 col-xl-4">
+    <button
+        onClick={(e) => { props.handleClick(2); }}
+        className="button col-md-4 col-lg-4 col-xl-4">
         <div className="button-card">
         <span className="contracts-icon" />
         <div className="button-info">
@@ -9,7 +11,7 @@ const ContractsButton = (props) => (
             <p className="button-subtitle">Sales and Purchases</p>
         </div>
         </div>
-    </div>
-);
+    </button>    
+)
 
 export default ContractsButton;

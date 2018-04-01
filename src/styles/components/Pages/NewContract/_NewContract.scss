@@ -28,13 +28,20 @@
     margin-top: 20px;
 }
 
-td {
+.newcontract-table-header-item {
     border: solid 2px #dedede;
-
     text-align: center;
     height: 50px;
 }
-td input {
+
+.newcontract-table-row-item {
+    border: solid 2px #dedede;
+    text-align: center;
+    height: 50px;
+}
+
+
+.newcontract-table-row-item input {
     border:none;
     height: 50px;
     width: 150px;

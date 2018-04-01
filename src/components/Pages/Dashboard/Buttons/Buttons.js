@@ -6,8 +6,10 @@ import ContactsButton from './ContactsButton';
 
 const Buttons = (props) => (
     <div className="button-row col-md-12 col-lg-12 col-xl-12">
-        <FinanceButton />
-        <ContractsButton />
+        <FinanceButton 
+            handleClick = {props.handleClick}/>
+        <ContractsButton 
+            handleClick = {props.handleClick}/>
         <ContactsButton />
     </div>
 );

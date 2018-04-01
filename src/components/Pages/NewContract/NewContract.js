@@ -1,11 +1,11 @@
 import React from 'react';
-import Contact from './Contact';
+import Contract from './Contract';
 
 class NewContract extends React.Component {
     render() {
         return(
             <div className="NewContract">
-                <Contact />
+                <Contract />
             </div>
         );
     } 

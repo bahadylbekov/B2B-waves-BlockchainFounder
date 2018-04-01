@@ -1,5 +1,6 @@
 import React from 'react';
 import DashboardSubMenu from './DashboardSubMenu';
+import { Link } from 'react-router-dom';
 
 class Dashboard extends React.Component {
     state = {
@@ -13,7 +14,7 @@ class Dashboard extends React.Component {
         return (
             <div>
                 <div className="menu-item">
-                    <a href="#" className="active">
+                    <a href="/" className="active">
                     <span><i className="fas fa-home fa-lg"></i></span>
                     <span className="title">Dashboard</span></a>
                     <button onClick={this.showSideBarMenuElement} className="dropdown-btn">

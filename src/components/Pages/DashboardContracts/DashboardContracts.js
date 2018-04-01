@@ -6,8 +6,8 @@ class DashboardContracts extends React.Component {
     render() {
         return(
             <div className="main-container">
-            <Buttons />
-            <ContractsTable />
+                <Buttons />
+                <ContractsTable />
             </div>
         );
     } 
