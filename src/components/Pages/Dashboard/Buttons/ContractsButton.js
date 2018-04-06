@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ContractsButton = (props) => (
-    <button
-        onClick={(e) => { props.handleClick(2); }}
+    <Link to="/dashboard-contracts"><button
+        // onClick={(e) => { props.handleClick(2); }}
         className="button col-md-4 col-lg-4 col-xl-4">
         <div className="button-card">
         <span className="contracts-icon" />
@@ -11,7 +12,7 @@ const ContractsButton = (props) => (
             <p className="button-subtitle">Sales and Purchases</p>
         </div>
         </div>
-    </button>    
+    </button></Link>
 )
 
 export default ContractsButton;

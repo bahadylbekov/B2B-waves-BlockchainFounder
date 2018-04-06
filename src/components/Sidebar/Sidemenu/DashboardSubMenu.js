@@ -10,7 +10,7 @@ const DashboardSubMenu = (props) => (
             <a><Link to="/dashboard-contracts">Contracts</Link></a>
         </li>
         <li className="subtitle">
-            <a href="#">Contacts</a>
+            <a><Link to="/current-contract">Contacts</Link></a>
         </li>
     </ul>
 );

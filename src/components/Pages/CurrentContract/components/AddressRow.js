@@ -15,6 +15,9 @@ class AddressRow extends React.Component {
             state: "California",
             zipCode: "91364",
             country: "United States"
+        },
+        coordinates: {
+            destination: "51.508153, -0.128074"
         }
     }
     render() {
@@ -35,6 +38,10 @@ class AddressRow extends React.Component {
                     <p className="info-item">{this.state.postalAddressInfo.state}</p>
                     <p className="info-item">{this.state.postalAddressInfo.zipCode}</p>
                     <p className="info-item">{this.state.postalAddressInfo.country}</p>
+                </div>
+                <div className="row-item">
+                    <p className="contract-info-title">Destination</p>
+                    <p className="info-item">{this.state.coordinates.destination}</p>
                 </div>
             </div>
         )

@@ -1,83 +1,112 @@
-.NewContract {
-    padding: 100px 30px 30px 30px;
-    min-height: calc(100vh - 70px);
+.newcontract-info-title {
+    display: inline-block;
+    color: $black;
+    font-size: 18px;
 }
 
-.label-contact {
-    margin:  5px 10px;
+.item-table-row-input {
+    padding: 20px 30px;
+    border: $px-border;
+
+    input {
+        height: 22px;
+        outline: none;
+        border: none;
+        color: $black;
+
+        &.code {
+            width: 45px;
+        }
+    
+        &.item {
+            width: 96px;
+        }
+    
+        &.description {
+            width: 106px;
+        }
+    
+        &.qty {
+            width: 21px;
+        }
+    
+        &.prices {
+            width: 61px;
+
+        }    
+    }
 
 }
+
+.newcontract-info-row {
+    margin: 10px 0 0 50px;
+}
+
+
+.newcontract-row-item {
+    display: inline-block;
+    padding: 30px 30px;
+}
+
 
 .input-contact {
+    display: block;
+    outline: none;
+    color: $black;
 
-  height: 27px;
-  border-radius: 5px;
-  background-color: #ffffff;
-  border: solid 2px #dedede;
-  
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #8a8a92;
+    input {
+        height: 22px;
+        width: 180px;
+        border: $px-border;
+        outline: none;
+        font-weight: 400;
+    }
 }
 
-.adress1 {
-    margin-top: 20px;
+.input-address {
+    margin: 0 0 5px 0;
+    display: block;
+    outline: none;
+    color: $black;
+    border: 1px solid $black;
+
+    input {
+        height: 22px;
+        width: 250px;
+        border: $px-border;
+        font-weight: 400;
+    }
 }
 
-.newcontract-table-header-item {
-    border: solid 2px #dedede;
-    text-align: center;
-    height: 50px;
-}
-
-.newcontract-table-row-item {
-    border: solid 2px #dedede;
-    text-align: center;
-    height: 50px;
-}
-
-
-.newcontract-table-row-item input {
-    border:none;
-    height: 50px;
-    width: 150px;
-}
-
-.Contact {
-    background-color: white;
-    padding: 10px;
-}
-#button-contact {
-    margin-top: 20px;
-    width: 150px;
-  height: 50px;
-  border-radius: 35px;
-  border: solid 2px #000000;
-  background: none;
-  font-size: 18px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #1e1e1e;
-}
-
-.billing-address-title {
+.newcontract-address-title {
     display: inline-block;
-    width: 15%;
-    font-size: 20px;
-    height: 200px;
-    float: left;
-
+    height: 100%;
+    vertical-align: top;
 }
 
-.billing-address-form {
+.newcontract-address-form {
+    margin: 0 0 0 35px;
     display: inline-block;
-    width: 25%;
-    float: left;
+    height: 100%;
+    vertical-align: top;
 }
+
+.submit-button {
+    display: inline-block;
+    float: right;
+    background: none;
+    width: 180px;
+    height: 63px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    border: solid 2px transparent;
+    border-radius: 35px;
+    background-image: linear-gradient($white, $white), linear-gradient(to top, #361fb2, #2768c9, #2768c9);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    padding: 0;
+    margin: 0 80px 40px 0;
+}
+
