@@ -58,7 +58,7 @@ module.exports = function(app, express) {
     };
     //Waves.config.set(newConfig);
     // const restoredPhrase = Waves.Seed.decryptSeedPhrase(encrypted, password);
-    const seed = Waves.Seed.fromExistingPhrase('month matrix pull message output eternal panther record render ski omit trip feed control frame');
+    const seed = Waves.Seed.fromExistingPhrase('put your seed phrase here');
     const address = "3PJvHjb5rw87rRM7mJu8MDsp1CZiQnPLp5m"
     // Waves.API.Node.v1.assets.issue(issueData, seed.keyPair).then((responseData) => {
     //     console.log(responseData);
