@@ -60,7 +60,11 @@ module.exports = function(app, express) {
     // const restoredPhrase = Waves.Seed.decryptSeedPhrase(encrypted, password);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const seed = Waves.Seed.fromExistingPhrase('put your seed phrase here');
+=======
+    const seed = Waves.Seed.fromExistingPhrase('month matrix pull message output eternal panther record render ski omit trip feed control frame');
+>>>>>>> parent of 922c471... changing seed
     const address = "3PJvHjb5rw87rRM7mJu8MDsp1CZiQnPLp5m"
 =======
     const seed = Waves.Seed.fromExistingPhrase('seed been here before but i need to hold my money with me');
