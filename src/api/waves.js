@@ -59,8 +59,13 @@ module.exports = function(app, express) {
     //Waves.config.set(newConfig);
     // const restoredPhrase = Waves.Seed.decryptSeedPhrase(encrypted, password);
 <<<<<<< HEAD
+<<<<<<< HEAD
     const seed = Waves.Seed.fromExistingPhrase('put your seed phrase here');
     const address = "3PJvHjb5rw87rRM7mJu8MDsp1CZiQnPLp5m"
+=======
+    const seed = Waves.Seed.fromExistingPhrase('seed been here before but i need to hold my money with me');
+    const address = "3P58CPv9wCY3k1B1yzZ6W4wneLtEMtQtNeN"
+>>>>>>> parent of 2b13499... adding destination to frontend
 =======
     const seed = Waves.Seed.fromExistingPhrase('seed been here before but i need to hold my money with me');
     const address = "3P58CPv9wCY3k1B1yzZ6W4wneLtEMtQtNeN"
