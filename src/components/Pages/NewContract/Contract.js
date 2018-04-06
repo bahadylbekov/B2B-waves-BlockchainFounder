@@ -1,5 +1,4 @@
 import React from 'react';
-import NewContractTotal from './NewContractTotal';
 
 class Contract extends React.Component {
     constructor (props) {
@@ -39,99 +38,86 @@ class Contract extends React.Component {
         }
              render() {
         return (
-            <div className="contract-container">
+            <div className="new-contract">
                 <form>
-                <div  className="newcontract-info-row">
-                    <div className="newcontract-row-item">
-                        <p className="newcontract-info-title">Contact</p>
-                        <div className="input-contact">
-                            <input type="text" name="company" placeholder="Company Name" onChange={this.handleChange} className="input-contact"/>
-                        </div>
-                    </div>
-                    <div className="newcontract-row-item">
-                        <p className="newcontract-info-title">Invoice #</p>
-                        <div className="input-contact">
-                            <input type="text" name="invoice"  placeholder="Invoice Number" onChange={this.handleChange} className="input-contact" />
-                        </div>
-                    </div>
-                    <div className="newcontract-row-item">
-                        <p className="newcontract-info-title">Amount</p>
-                        <div className="input-contact">
-                            <input type="text" name="amount" placeholder="Amount of dollars" onChange={this.handleChange} className="input-contact" />
-                        </div>
-                    </div>
-                    <div className="newcontract-row-item">
-                        <p className="newcontract-info-title">Waves account</p>
-                        <div className="input-contact">
-                            <input type="text" name="account" placeholder="Waves address" onChange={this.handleChange} className="input-contact"/>
-                        </div>
-                    </div>
+                <div>
+                    <label className="label-contact">
+                    Contact:<br/>
+                    <input type="text" name="company" placeholder="Company Name" onChange={this.handleChange} class="input-contact"/>
+                    </label>
+
+                    <label class="label-contact">
+                    Invoice #:<br/>
+                    <input type="text" name="invoice"  placeholder="Invoice" onChange={this.handleChange} class="input-contact" />
+                    </label>
+                    
+                    <label class="label-contact">
+                    Amount:<br/>
+                    <input type="text" name="date" placeholder="Amount" onChange={this.handleChange} class="input-contact" />
+                    </label>
+
+                    <label class="label-contact">
+                    Waves Account:<br/>
+                    <input type="text" name="dueDate" placeholder="Waves Account" onChange={this.handleChange} class="input-contact"/>
+                    </label>
+
+                    <label class="label-contact">
+                    Amounts are:<br/>
+                    <input type="text" name="Amounts"  value="Tax Inclusive" onChange={this.handleChange} class="input-contact" />
+                    </label>
                 </div>
 
-                <div className="newcontract-info-row">
-                    <div className="newcontract-row-item">
-                        <div className="newcontract-address-title">
-                            <p className="newcontract-info-title">Billing Address</p>
-                        </div>
-                        <div className="newcontract-address-form">
-                            <div className="input-contact">
-                                <input type="text" placeholder="Address" name="address" onChange={this.handleChange} className="input-address" />
-                            </div>
-                            <div className="input-contact">
-                                <input type="text" placeholder="City" name="city" onChange={this.handleChange} className="input-address"/>
-                            </div>
-                            <div className="input-contact">
-                                <input type="text" placeholder="State" name="state" onChange={this.handleChange} className="input-address"/>
-                            </div>
-                            <div className="input-contact">
-                                <input type="text" placeholder="Zip Code" name="zip" onChange={this.handleChange} className="input-address" />
-                            </div>
-                            <div className="input-contact">
-                                <input type="text" placeholder="Country" name="country" onChange={this.handleChange} className="input-address"/> 
-                            </div>
-                        </div>
-                        <div className="newcontract-address-form">
-                            <div className="newcontract-info-title">
-                                <p className="newcontract-info-title">Destination</p>
-                            </div>
-                            <div className="newcontract-address-form">
-                                <div className="input-contact">
-                                    <input type="text" placeholder="Destination" name="destination" onChange={this.handleChange} className="input-address" />
-                                </div>
-                            </div>
-                        </div>
+                <div className="adress1">
+                    <div className="billing-address-title">
+                        Billing Address 
+                    </div>
+
+                    <div className="billing-address-form">
+                        <label class="label-contact">
+                        <input type="text" placeholder="address" name="address" onChange={this.handleChange} class="input-contact" />
+                        </label><br/>
+                    
+                        <label class="label-contact">
+                        <input type="text" placeholder="city" name="city" onChange={this.handleChange} class="input-contact"/> 
+                        </label>  <br/>
+
+                        <label class="label-contact">
+                        <input type="text" placeholder="state" name="state" onChange={this.handleChange} class="input-contact"/> 
+                        </label>  <br/>
+
+                        <label class="label-contact">
+                        <input type="text" placeholder="zip" name="zip" onChange={this.handleChange} class="input-contact" /> 
+                        </label>  <br/>
+
+                        <label class="label-contact">
+                        <input type="text" placeholder="country" name="country" onChange={this.handleChange} class="input-contact"/> 
+                        </label><br/>
                     </div>
                 </div>
-                <div className="table">
-                    <table className="items-table">
-                        <thead className="item-table-header">
-                            <tr>
-                                <th className="item-table-header-item">Code</th>
-                                <th className="item-table-header-item">Item</th>
-                                <th className="item-table-header-item">Description</th>
-                                <th className="item-table-header-item">Qty</th>
-                                <th className="item-table-header-item">Unit Price</th>
-                                <th className="item-table-header-item">Discount</th>
-                                <th className="item-table-header-item">Amount</th>
-                            </tr>
-                        </thead>
-                        <tr className="item-table-row">
-                            <td className="item-table-row-input"><input className="code" type="text" name="code" onChange={this.handleChange} /></td>
-                            <td className="item-table-row-input"><input className="item" type="text" name="item" onChange={this.handleChange} /></td>
-                            <td className="item-table-row-input"><input className="description" type="text" name="description" onChange={this.handleChange} /></td>
-                            <td className="item-table-row-input"><input className="qty" type="int" name="qty"  onChange={this.handleChange}/></td>
-                            <td className="item-table-row-input"><input className="prices" type="int" name="unitPrice" onChange={this.handleChange} /></td>
-                            <td className="item-table-row-input"><input className="prices" type="int" name="discount" onChange={this.handleChange} /></td>
-                            <td className="item-table-row-input"><input className="prices" type="int" name="amount"  onChange={this.handleChange}/></td>
-                        </tr>
-                    </table>
-                </div>
+                <br/>
+                <table className="newcontract-table">
+                    <tr className="newcontract-table-header">
+                        <td className="newcontract-table-header-item">Code</td>
+                        <td className="newcontract-table-header-item">Item</td>
+                        <td className="newcontract-table-header-item">Description</td>
+                        <td className="newcontract-table-header-item">Qty</td>
+                        <td className="newcontract-table-header-item">Unit Price</td>
+                        <td className="newcontract-table-header-item">Discount</td>
+                        <td className="newcontract-table-header-item">Amount</td>
+                    </tr>
+                    <tr className="newcontract-table-row">
+                        <td className="newcontract-table-row-item"><input type="text" name="code" onChange={this.handleChange} /></td>
+                        <td className="newcontract-table-row-item"><input type="text" name="item" onChange={this.handleChange} /></td>
+                        <td className="newcontract-table-row-item"><input type="text" name="description" onChange={this.handleChange} /></td>
+                        <td className="newcontract-table-row-item"><input type="int" name="qty"  onChange={this.handleChange}/></td>
+                        <td className="newcontract-table-row-item"><input type="int" name="unitPrice" onChange={this.handleChange} /></td>
+                        <td className="newcontract-table-row-item"><input type="int" name="discount" onChange={this.handleChange} /></td>
+                        <td className="newcontract-table-row-item"><input type="int" name="amount"  onChange={this.handleChange}/></td>
+                    </tr>
+                </table>
                 </form>
-                <NewContractTotal />
                 <button
-                    onClick={() => {this.handleSubmit();return false;}} className="submit-button" >Submit
-                </button>
-                <div className="clear"/>
+                onClick={() => {this.handleSubmit();return false;}} id="button-contact" />
           </div>
         );
       }

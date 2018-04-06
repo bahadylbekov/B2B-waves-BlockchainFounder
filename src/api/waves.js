@@ -58,8 +58,13 @@ module.exports = function(app, express) {
     };
     //Waves.config.set(newConfig);
     // const restoredPhrase = Waves.Seed.decryptSeedPhrase(encrypted, password);
+<<<<<<< HEAD
     const seed = Waves.Seed.fromExistingPhrase('put your seed phrase here');
     const address = "3PJvHjb5rw87rRM7mJu8MDsp1CZiQnPLp5m"
+=======
+    const seed = Waves.Seed.fromExistingPhrase('seed been here before but i need to hold my money with me');
+    const address = "3P58CPv9wCY3k1B1yzZ6W4wneLtEMtQtNeN"
+>>>>>>> parent of 2b13499... adding destination to frontend
     // Waves.API.Node.v1.assets.issue(issueData, seed.keyPair).then((responseData) => {
     //     console.log(responseData);
     // }).catch((err) => console.error(err.data.message));
@@ -77,13 +82,13 @@ module.exports = function(app, express) {
     db.insert(req.body);
     const transferData = {
 
-        recipient: req.body.account,
+        recipient: req.body.dueDate,
     
         // ID of a token, or WAVES
         assetId: 'Ft8X1v1LTa1ABafufpaCWyVj8KkaxUWE6xBhW6sNFJck',
     
         // The real amount is the given number divided by 10^(precision of the token)
-        amount: req.body.amount,
+        amount: req.body.date,
     
         // The same rules for these two fields
         feeAssetId: 'WAVES',
