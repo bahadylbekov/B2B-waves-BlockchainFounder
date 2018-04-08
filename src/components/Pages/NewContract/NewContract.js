@@ -1,5 +1,6 @@
 import React from 'react';
 import Contract from './Contract';
+// import NewVote from './NewVote';
 
 class NewContract extends React.Component {
     render() {

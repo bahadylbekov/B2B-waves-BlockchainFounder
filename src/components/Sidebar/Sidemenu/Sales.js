@@ -15,7 +15,7 @@ class Sales extends React.Component {
                 <div className="menu-item">
                     <a href="#">
                         <span><i className="fas fa-credit-card fa-lg"></i></span>
-                        <span className="title">Sales</span></a>
+                        <span className="title">Voting</span></a>
                         <button onClick={this.showSideBarMenuElement} className="dropdown-btn">
                                 <i className="fas fa-chevron-down"></i></button>
                     </div>

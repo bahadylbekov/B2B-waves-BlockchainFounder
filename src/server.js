@@ -12,7 +12,7 @@ app.use(morgan('dev'));
 app.use(express.static(__dirname + '/../public'));
 
 
-var api = require('./api/waves')(app, express);
+var api = require('./api/waves-dtx')(app, express);
 app.use('/api', api);
 
 app.get('*', function(req, res) {

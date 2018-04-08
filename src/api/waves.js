@@ -50,30 +50,20 @@ const Waves = WavesAPI.create(WavesAPI.MAINNET_CONFIG);
 
 module.exports = function(app, express) {
     var api = express.Router();
+
     var newConfig = {
         networkByte: Waves.constants.TESTNET_BYTE,
         nodeAddress: 'https://testnode2.wavesnodes.com',
         matcherAddress: 'https://testnode2.wavesnodes.com/matcher',
         minimumSeedLength: 10
     };
+
     //Waves.config.set(newConfig);
     // const restoredPhrase = Waves.Seed.decryptSeedPhrase(encrypted, password);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    const seed = Waves.Seed.fromExistingPhrase('put your seed phrase here');
-=======
+
     const seed = Waves.Seed.fromExistingPhrase('month matrix pull message output eternal panther record render ski omit trip feed control frame');
->>>>>>> parent of 922c471... changing seed
-    const address = "3PJvHjb5rw87rRM7mJu8MDsp1CZiQnPLp5m"
-=======
-    const seed = Waves.Seed.fromExistingPhrase('seed been here before but i need to hold my money with me');
-    const address = "3P58CPv9wCY3k1B1yzZ6W4wneLtEMtQtNeN"
->>>>>>> parent of 2b13499... adding destination to frontend
-=======
-    const seed = Waves.Seed.fromExistingPhrase('seed been here before but i need to hold my money with me');
-    const address = "3P58CPv9wCY3k1B1yzZ6W4wneLtEMtQtNeN"
->>>>>>> parent of 2b13499... adding destination to frontend
+    const address = "3PJvHjb5rw87rRM7mJu8MDsp1CZiQnPLp5m";
+
     // Waves.API.Node.v1.assets.issue(issueData, seed.keyPair).then((responseData) => {
     //     console.log(responseData);
     // }).catch((err) => console.error(err.data.message));
